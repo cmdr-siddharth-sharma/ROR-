@@ -1,0 +1,96 @@
+<main style="margin-top: 68px;"> 
+    <div class=" course-container  ">
+      <div class="container">
+
+        <h1 style="font-size: 3rem;">Courses</h1>
+        <!-- Nav-->
+          <form action=" " class="prod-search-form">
+            <ul class="prod-col-list">
+             <li class="products__collections-list-item mx-2  ho">
+                  <a href="<%=src_all_path%>" class="list-cont" > All content</a>
+                  
+             </li>
+             <li class="products__collections-list-item mx-2">
+              <a href="<%=src_certificates_path%>" class="list-cont"> Certification</a>
+              
+              <li class="products__collections-list-item active mx-2">
+               <a href="<%=src_courses_path%>" class="list-cont"> Courses</a>
+             </li>
+         </li>
+         <li class="products__collections-list-item mx-2">
+          <a href="<%=src_webinear_path%>" class="list-cont" class="list-cont"> Webinar</a>
+          
+     </li>
+  </ul>
+<!-- Products -->
+<div class="row g-4 my-3">
+  <div class="col-md-4 col-sm-6">
+ <a href="<%= src_prod1_path %>" style="text-decoration: none;">
+    
+    <div class="card" >
+      <div class="card-body" >
+        <div class="card-title">
+          <h2> All Content</h2>
+        </div>
+        <p class="card-text">Blockchain Essentials: An Introduction to Blockchain</p><br>
+        <div class="price">
+          <div class="row text-center text-dark ">
+            <div class="col-sm-6 "> <strong>44 lesson</strong> </div>
+            <div class="col-sm-6 " style="border-left: 2px solid rgb(143, 143, 143);"><strong>$ 99.00</strong> </div>
+          </div>
+         </div>
+       </div>
+      <img class="card-img-top" src="<%= asset_path 'c1.jpg' %>"  height=196.5px alt="Card image cap">
+      
+    </div></a>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+ <a href="<%= src_prod1_path %>" style="text-decoration: none;">
+    
+    <div class="card" >
+      <div class="card-body">
+        <div class="card-title">
+          <h2> All Content</h2>
+        </div>
+        <p class="card-text">Blockchain Essentials: An Introduction to Blockchain</p><br>
+        <div class="price">
+          <div class="row text-center text-dark ">
+            <div class="col-sm-6 "> <strong>44 lesson</strong> </div>
+            <div class="col-sm-6 " style="border-left: 2px solid rgb(143, 143, 143);"><strong>$ 99.00</strong> </div>
+          </div>
+         </div>
+       </div>
+      <img class="card-img-top" src="<%= asset_path 'c2.jpg' %>"  alt="Card image cap">
+      
+    </div></a>
+  </div>
+
+ </div>
+
+<!-- Products -->
+
+<!-- pagination -->
+<nav aria-label="Page navigation example ">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+<!-- pagination -->
+
+
+</div>
+</div>
+</main>

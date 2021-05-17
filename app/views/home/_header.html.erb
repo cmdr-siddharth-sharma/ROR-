@@ -1,0 +1,39 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light p-3">
+    <div class="container">
+      <a class="navbar-brand" href="<%= root_path %>">
+        <img src="<%= asset_path 'logo.png' %>" alt="" height="23px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <!-- links for center buttons   -->
+
+        </ul>
+        <div class="form-inline my-2 my-lg-0 nav-fon">
+          <a href="<%= src_all_path %>" class="px-2 ho rob">all courses</a>
+          <a href="<%= src_courses_path %>" class="px-2 ho rob ml-4">my courses</a>
+
+          <div class="dropdown">
+            <a class="dropdown-toggle ho rob ml-4" style="color: #4a90e2;" type="button" id="dropdownMenuButton"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dhiraj L
+              <span style="background-color: rgb(143, 52, 0); height: 30rem ; color: white; padding: 0.5rem; border-radius: 50%;">
+                D 
+              </span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="<%= src_myacc_path %>">My Account</a>
+              <a class="dropdown-item" href="#">Support</a>
+              <a class="dropdown-item" href="#">Sign Out</a>
+            </div>
+          </div>
+           </a>
+          <a href="" class="px-2 ho rob ml-4">Sign In</a>
+        </div>
+      </div>
+    </div>
+  </nav>

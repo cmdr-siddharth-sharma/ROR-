@@ -1,0 +1,118 @@
+    <!-- cover pic -->
+
+        <div style=" margin-top: 2.5rem; background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)) , url('<%= asset_path 'cover2.jpg' %>')no-repeat center/cover; height: calc(100vh - 65px) ;  ">
+            <div class="row">
+                <div class="col-md-6">
+
+                    
+                    <div class="content text-light mx-5">
+                        
+                        <h1 class="text-light" style="font-family : 'Montserrat',sans-serif ;">Blockchain Essentials: <br> An Introduction to Blockchain</h1>
+                        <p class="text-light">Learn the essentials of Blockchain, what it is, and what it can do, with ConsenSys Academy, in our Essentials course, getting you up-to-speed and ready for 2021.</p> 
+                        <br>
+                        <button class="btn btn-info rounded-pill ">Sign Up Now</button>
+                    </div> 
+                </div>
+            </div>
+        </div>
+      
+
+    
+     <!-- cover pic -->
+    
+     <div class="cc-container text-center">
+         <h2 style="margin-bottom: 1rem; font-size: 2.2rem;">Course curriculum</h2>
+    <!-- <div style="background-color: grey; height: 100vh;"> -->
+      
+      <!-- Collapse buttons -->
+      <button class="accordion text-uppercase" ><span class="ml-2 mr-5">1</span> module 1 : introduction to blockchain<i class="fas fa-angle-down float-right"></i></button>
+<div class="panel" style="margin-bottom: 2px;" >
+  <ul>
+    <li class="p-1"><i class="fas fa-video"></i>A PAPER BLOCKCHAIN</li>
+    <li class="p-1"><i class="fas fa-video"></i>A BIT ABOUT CONSENSYS AND THIS COURSE</li>
+    <li class="p-1"><i class="fas fa-video"></i>THE BITCOIN REVOLUTION?</li>
+    <li class="p-1"><i class="fas fa-video"></i>WHY BLOCKCHAIN IS EXCITINGn</li>
+    <li class="p-1"><i class="fas fa-video"></i>A BRIEF HISTORY OF BLOCKCHAIN</li>
+    <li class="p-1"><i class="fas fa-file-alt"></i>MODULE 1: READING MATERIALS</li>
+  </ul>
+</div>    
+
+<button class="accordion text-capitalize"><span class="ml-2 mr-5">2</span>MODULE 2: FOUNDATIONAL BLOCKCHAIN CONCEPTS<i class="fas fa-angle-down float-right"></i></button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>  
+
+<button class="accordion text-capitalize"><span class="ml-2 mr-5">3</span>MODULE 3: CRYPTOCURRENCY<i class="fas fa-angle-down float-right"></i></button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>   
+
+<button class="accordion text-capitalize"><span class="ml-2 mr-5">4</span>MODULE 4: TECHNICAL FOUNDATIONS<i class="fas fa-angle-down float-right"></i></button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>   
+
+<button class="accordion text-capitalize"><span class="ml-2 mr-5">5</span>MODULE 5: DIFFERENT KINDS OF BLOCKCHAINS<i class="fas fa-angle-down float-right"></i></button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>  
+
+<button class="accordion text-capitalize"><span class="ml-2 mr-5">6</span>MODULE 6: ADVANCED TOPICS<i class="fas fa-angle-down float-right"></i></button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>  
+</div>
+<!-- Collapse buttons -->
+
+<!-- video section -->
+<div class="d-flex justify-content-center align-items-center" style="background-color: grey; width: 100vw; height: 60vh; margin-bottom: 3rem;">
+  <button class="btn">
+    <i class="far fa-play-circle fa-4x text-dark"></i>
+  </button>
+</div>
+<!-- video section -->
+
+<div class="container" style="padding: 4rem 0 4rem;">
+  <div class="text-center">
+<h1 style="margin-bottom: 2rem;">Sign Up Today</h1>
+<div style="width: 66%; margin: 0 auto 0 auto;">
+  <p>Blockchain Essentials 2021 is our latest, definitive introduction to blockchain for anyone who wants 
+    to learn more about the technology. In this course, we go beyond Bitcoin and look at the future of 
+    blockchain, cryptocurrency, tokens, and new, modern, and next-generation blockchain implementations like Ethereum— a blockchain that many observers believe has the
+    promise to revolutionize business and usher in a new age of the internet, with its “world computer”.</p>
+    <button class="btn btn-primary rounded-pill" style="margin-top: 3rem;">Buy Now</button>
+  </div>
+</div>  
+</div>
+   <div class="container" style="margin: 4rem auto;">
+      <h1 class="text-center">Your Instructor</h1>
+      <div class="row" style="margin: 4rem auto;">
+        <div class="col-sm-6">
+          <div >
+
+            <img src="<%= asset_path 'instr.jpg' %>" alt=""class="img-fluid"  style="border-radius: 9px;" >
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <small>Senior multimedia designer and instructor</small>
+          <H1>Nick Neslon</H1>
+        </div>
+      </div>
+    </div>
+
+<script>
+ var acc = document.getElementsByClassName("accordion");
+ var i;
+ 
+ for (i = 0; i < acc.length; i++) {
+   acc[i].addEventListener("click", function() {
+     this.classList.toggle("active1");
+     var panel = this.nextElementSibling;
+     if (panel.style.maxHeight) {
+       panel.style.maxHeight = null;
+     } else {
+       panel.style.maxHeight = panel.scrollHeight + "px";
+     } 
+   });
+ }
+ </script>

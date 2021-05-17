@@ -1,0 +1,61 @@
+<head>
+<style>
+    .list-group a {
+      color: black;
+      padding: 8px 16px;
+    }
+
+    .list-group a.act,
+    .list-group a:hover {
+      color: #969696;
+      border-left: 5px solid #969696;
+    }
+
+    .form-outline .form-control {
+      background: #f5f5f5;
+    }
+
+    .form-control:hover {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+ <section style="margin-top: 5rem;">
+    <div class="container">
+      <div class="course-container text-center">
+        <span style="font-size: 1.77rem;">My Account</span>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <div class="course-container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="list-group " style="background-color: #f5f5f5; border-radius: 0;">
+            <a href="#" class="text-decoration-none rob">Profile</a>
+            <a href="<%= src_password_path %>" class="text-decoration-none rob ">Password</a>
+            <a href="<%= src_profileCertif_path %>" class="text-decoration-none rob ">Certificates</a>
+            <a href="<%= src_notify_path %>" class="text-decoration-none rob act">Notification</a>
+            <a href="#" class="text-decoration-none rob ">Billing</a>
+            <a href="#" class="text-decoration-none rob ">Order History</a>
+
+          </div>
+
+        </div>
+<div class="col-lg-9 pl-4">
+          <h1 class="rob text-bold" style="font-size: 3rem; margin-bottom: 1rem; ">General Notification Settings</h1>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label rob" for="defaultCheck1" style="margin-bottom: 1rem; font-weight: bold;">
+               Send me a weekly reminder email
+            </label></div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label rob" for="defaultCheck1" style="margin-bottom: 1rem; font-weight: bold;">
+                Notify me when someone replies to a discussion I created
+            </label>
+        </div>
+        <button class="btn btn-primary rounded-pill rob"> Save changes</button>
+      </div>
+    </div>
+  </div></div>
